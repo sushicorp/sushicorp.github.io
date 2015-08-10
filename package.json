@@ -1,0 +1,24 @@
+{
+  "name": "sushicorp.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sushicorp/sushicorp.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sushicorp/sushicorp.github.io/issues"
+  },
+  "homepage": "https://github.com/sushicorp/sushicorp.github.io#readme",
+  "dependencies": {
+    "insert-css": "^0.2.0",
+    "vue": "^0.12.10",
+    "vueify": "^1.1.5"
+  }
+}

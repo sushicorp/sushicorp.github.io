@@ -1,0 +1,17 @@
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main{
+    font-family: "Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+}
+
+p{
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+html{
+    overflow-y: scroll;
+}
