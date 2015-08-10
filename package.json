@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build:js": "browserify -t vueify ${npm_package_config_src_js} > ${npm_package_config_dist_js}",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,9 @@
     "insert-css": "^0.2.0",
     "vue": "^0.12.10",
     "vueify": "^1.1.5"
+  },
+  "config": {
+    "src_js": "main.js",
+    "dist_js": "bundle.js"
   }
 }
